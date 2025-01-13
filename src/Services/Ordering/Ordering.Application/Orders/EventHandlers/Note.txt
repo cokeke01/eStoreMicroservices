@@ -1,0 +1,1 @@
+﻿OrderCreatedEventHandler will be triggered when an event is published , which can be seen in Ordering.Infrastructure.Interceptors

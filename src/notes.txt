@@ -1,0 +1,17 @@
+
+Note: 
+
+for the Catalog project, we use the vertical Slice method/architecture
+
+We added all library required on the catalog, basket and ordering microservice project to this Building block. That way, we do not have to install the packages on all the various project
+
+Carter to handle the Request
+Mapster to handle the mapping from request to command object (using the mapster mapping library), to convert our request to the mediatr command object
+
+Carter will manage the API endpoints and mediatR will handle the business logic through our commands and handlers
+
+We create a Globalusing class to avoid repeating the same using objects in our classes . Example: "using MediatR"
+
+Due to some limitations, we remove dthe carter from the building block project and installed on the CatalogAPI project directly
+
+Catalog Servuce use Marten for PostgreSQL interaction as a Document DB

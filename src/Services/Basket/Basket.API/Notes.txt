@@ -1,0 +1,8 @@
+﻿We will use the connected services here to add the gRPC client on the Basket project to be able to connect to the Discount gRPC project/server
+build the Basket project after connecting using the Discount.Proto file
+
+Then we modified the StoreBasketHandler class
+
+# Add the following lines to copy the certificate
+RUN mkdir -p /app/certificates
+COPY Services/Catalog/Catalog.API/certificates/aspnetappcert.pfx /home/app/.aspnet/https:ro

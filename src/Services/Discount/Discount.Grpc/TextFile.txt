@@ -1,0 +1,6 @@
+﻿We made some settings modification on docount.proto properties, "right click and select properties"
+
+Here we used sqLite which is an embedded database
+
+Extensions.cs created to auto migrate the database and seed data
+
